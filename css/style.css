@@ -1,0 +1,17 @@
+/* Navbar style */
+.navbar{
+    padding: 24px 12px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--clr-section-heading);
+}
+.signIn-btn{
+    border-radius: 8px;
+    border: 1px solid var(--clr-primary);
+    padding: 15px 30px;
+    color: var(--clr-primary);
+    font-weight: 600;
+    font-size: 18px;
+}

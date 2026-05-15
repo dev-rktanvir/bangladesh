@@ -1,0 +1,7 @@
+@media screen and (max-width:576px) {
+    /* Navbar */
+    .navbar{
+        flex-direction: column;
+        gap: 16px;
+    }
+}
