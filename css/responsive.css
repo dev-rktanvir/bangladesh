@@ -52,6 +52,20 @@
     .pillar-card p {
         text-align: center;
     }
+
+    /* Future vision section */
+    .vision-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .vision-card {
+        align-items: center;
+    }
+
+    .vision-card h3,
+    .vision-card p {
+        text-align: center;
+    }
 }
 
 /* Responsive for medium devices */
@@ -103,6 +117,20 @@
 
     .pillar-card h3,
     .pillar-card p {
+        text-align: center;
+    }
+
+    /* Future vision section */
+    .vision-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .vision-card {
+        align-items: center;
+    }
+
+    .vision-card h3,
+    .vision-card p {
         text-align: center;
     }
 }
