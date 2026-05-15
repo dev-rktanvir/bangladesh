@@ -1,6 +1,14 @@
+/* Responsive for small devices */
 @media screen and (max-width:576px) {
+
+    /* Global */
     .primary-btn {
         align-self: center;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 2rem;
     }
 
     /* Navbar */
@@ -13,6 +21,7 @@
     .hero {
         flex-direction: column-reverse;
         padding: 40px 20px;
+        margin: 15px 12px 0;
     }
 
     .hero-content,
@@ -25,18 +34,43 @@
         font-size: 2rem;
         text-align: center;
     }
+
+    /* Pillar section */
+    .pillar {
+        margin: 0 12px;
+    }
+
+    .pillar-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pillar-card {
+        align-items: center;
+    }
+
+    .pillar-card h3,
+    .pillar-card p {
+        text-align: center;
+    }
 }
 
 /* Responsive for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+
+    /* Global */
     .primary-btn {
         align-self: center;
+    }
+
+    .section-title {
+        text-align: center;
     }
 
     /* Hero section */
     .hero {
         flex-direction: column-reverse;
         padding: 40px 20px;
+        margin: 15px 12px 0;
     }
 
     .hero-content {
@@ -53,13 +87,40 @@
     .hero-img {
         width: 60%;
     }
+
+    /* Pillar section */
+    .pillar {
+        margin: 0 12px;
+    }
+
+    .pillar-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pillar-card {
+        align-items: center;
+    }
+
+    .pillar-card h3,
+    .pillar-card p {
+        text-align: center;
+    }
 }
 
 /* Responsive for large devices */
 @media screen and (min-width: 992px) and (max-width: 1400px) {
 
     /* Hero section */
+    .hero {
+        margin: 30px 12px 0;
+    }
+
     .hero-content h1 {
         font-size: 2.5rem;
+    }
+
+    /* Pillar section */
+    .pillar {
+        margin: 0 12px;
     }
 }
